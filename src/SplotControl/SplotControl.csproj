@@ -4,6 +4,28 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <Version>0.1.0</Version>
+    <Title>SPlot WPF Chart Control</Title>
+    <Description>Simple WPF Line and Column Chart Library</Description>
+    <Summary>Simple WPF Line and Column Chart Library</Summary>
+    <PackageProjectUrl>https://github.com/ByronAP/SPlot</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/ByronAP/SPlot</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>chart, wpf</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>© 2008-2021 ByronAP</Copyright>
+    <Authors>ByronAP</Authors>
+    <Product>Splot</Product>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
