@@ -4,7 +4,7 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Title>SPlot WPF Chart Control</Title>
     <Description>Simple WPF Line and Column Chart Library</Description>
     <Summary>Simple WPF Line and Column Chart Library</Summary>
