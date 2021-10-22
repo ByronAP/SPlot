@@ -15,13 +15,13 @@ namespace SplotControl
     public partial class SPlotControl : UserControl, INotifyPropertyChanging, INotifyPropertyChanged
     {
         public GridOptions GridOptions { get => _gridOptions; set => SetField(ref _gridOptions, value); }
-        private GridOptions _gridOptions = new();
+        private GridOptions _gridOptions = new GridOptions();
 
         public string HeaderText { get => _headerText; set => SetField(ref _headerText, value); }
         private string _headerText = "Demo Header Text";
 
         public ColumnSeries ColumnSeries { get => _columnSeries; set => SetField(ref _columnSeries, value); }
-        private ColumnSeries _columnSeries = new();
+        private ColumnSeries _columnSeries = new ColumnSeries();
 
         public IEnumerable<LineSeries> LineSeries { get => _lineSeries; set => SetField(ref _lineSeries, value); }
         private IEnumerable<LineSeries> _lineSeries = new List<LineSeries>();

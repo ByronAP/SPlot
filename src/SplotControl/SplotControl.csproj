@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Title>SPlot WPF Chart Control</Title>
     <Description>Simple WPF Line and Column Chart Library</Description>
     <Summary>Simple WPF Line and Column Chart Library</Summary>

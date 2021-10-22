@@ -11,7 +11,7 @@ namespace SplotControl.Models
         private string _name = string.Empty;
 
         public ObservableCollection<DateTimeDataPoint> Points { get => _points; set => SetField(ref _points, value); }
-        private ObservableCollection<DateTimeDataPoint> _points = new();
+        private ObservableCollection<DateTimeDataPoint> _points = new ObservableCollection<DateTimeDataPoint>();
 
         public bool Reverse { get => _reverse; set => SetField(ref _reverse, value); }
         private bool _reverse;
